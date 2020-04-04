@@ -15,7 +15,7 @@ read ip
 echo "your ip ${Yellow} $ip "
 
 echo "${cyan}"
-#sudo apt-get install openssh-server	   # first_command  to install openssh-server
+sudo apt-get install openssh-server	   # first_command  to install openssh-server
 sudo systemctl start ssh        # second_command  to start ssh 
 echo "\n"
 echo "\n"
